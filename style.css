@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  direction: rtl;
+  text-align: center;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to left, #00c6ff, #0072ff);
+  color: white;
+  padding: 40px 20px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.subtitle {
+  margin: 10px 0 20px;
+  font-size: 15px;
+   font-weight: bold;
+  color: #ffeb3b; 
+
+  padding: 0 5px;
+}
+
+
+
+.logo {
+  max-width: 120px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #0072ff;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  width: 180px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  background: #0072ff;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
