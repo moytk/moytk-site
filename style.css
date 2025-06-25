@@ -22,13 +22,13 @@ header {
   margin: 10px 0 20px;
   font-size: 15px;
    font-weight: bold;
-  color: #ffeb3b; 
+  color:black; 
 
   padding: 0 5px;
 }
 
 .order-main{
-  color: orangered;
+  color: #ffeb3b;
   font-size: 20px;
 }
 
